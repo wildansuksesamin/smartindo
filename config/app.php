@@ -12,8 +12,9 @@ return [
     | any other location as required by the application or its packages.
     |
     */
+    
 
-    'private_key_str' => file_get_contents("/home/giosoftech/public_html/smartindo/private_key.pem"),
+     'private_key_path' => base_path('smartindo/private_key.pem'),
 
     'name' => env('APP_NAME', 'Laravel'),
 
